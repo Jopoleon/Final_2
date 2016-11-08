@@ -1,0 +1,603 @@
+remote:        combined-stream@1.0.5 node_modules/request/node_modules/combined-
+stream -> node_modules/combined-stream
+remote:        destroy@1.0.4 node_modules/express/node_modules/send/node_modules
+/destroy -> node_modules/destroy
+remote:        domelementtype@1.1.3 node_modules/cheerio/node_modules/dom-serial
+izer/node_modules/domelementtype -> node_modules/dom-serializer/node_modules/dom
+elementtype
+remote:        domelementtype@1.3.0 node_modules/cheerio/node_modules/htmlparser
+2/node_modules/domelementtype -> node_modules/domelementtype
+remote:        domhandler@2.3.0 node_modules/cheerio/node_modules/htmlparser2/no
+de_modules/domhandler -> node_modules/domhandler
+remote:        encodeurl@1.0.1 node_modules/express/node_modules/encodeurl -> no
+de_modules/encodeurl
+remote:        entities@1.1.1 node_modules/cheerio/node_modules/entities -> node
+_modules/entities
+remote:        dom-serializer@0.1.0 node_modules/cheerio/node_modules/dom-serial
+izer -> node_modules/dom-serializer
+remote:        domutils@1.5.1 node_modules/cheerio/node_modules/css-select/node_
+modules/domutils -> node_modules/domutils
+remote:        escape-html@1.0.3 node_modules/express/node_modules/escape-html -
+> node_modules/escape-html
+remote:        escape-string-regexp@1.0.5 node_modules/request/node_modules/har-
+validator/node_modules/chalk/node_modules/escape-string-regexp -> node_modules/e
+scape-string-regexp
+remote:        etag@1.7.0 node_modules/express/node_modules/etag -> node_modules
+/etag
+remote:        - mime-db@1.24.0 node_modules/express/node_modules/accepts/node_m
+odules/mime-types/node_modules/mime-db
+remote:        - mime-types@2.1.12 node_modules/express/node_modules/accepts/nod
+e_modules/mime-types
+remote:        - content-type@1.0.2 node_modules/express/node_modules/content-ty
+pe
+remote:        - ms@0.7.1 node_modules/express/node_modules/debug/node_modules/m
+s
+remote:        - debug@2.2.0 node_modules/express/node_modules/debug
+remote:        - depd@1.1.0 node_modules/express/node_modules/depd
+remote:        - statuses@1.3.0 node_modules/express/node_modules/finalhandler/n
+ode_modules/statuses
+remote:        - unpipe@1.0.0 node_modules/express/node_modules/finalhandler/nod
+e_modules/unpipe
+remote:        - ee-first@1.1.1 node_modules/express/node_modules/on-finished/no
+de_modules/ee-first
+remote:        - on-finished@2.3.0 node_modules/express/node_modules/on-finished
+
+remote:        - qs@6.2.0 node_modules/express/node_modules/qs
+remote:        - inherits@2.0.1 node_modules/express/node_modules/send/node_modu
+les/http-errors/node_modules/inherits
+remote:        - setprototypeof@1.0.1 node_modules/express/node_modules/send/nod
+e_modules/http-errors/node_modules/setprototypeof
+remote:        - ms@0.7.1 node_modules/express/node_modules/send/node_modules/ms
+
+remote:        - statuses@1.3.0 node_modules/express/node_modules/send/node_modu
+les/statuses
+remote:        - http-errors@1.5.0 node_modules/express/node_modules/send/node_m
+odules/http-errors
+remote:        - media-typer@0.3.0 node_modules/express/node_modules/type-is/nod
+e_modules/media-typer
+remote:        - mime-db@1.24.0 node_modules/express/node_modules/type-is/node_m
+odules/mime-types/node_modules/mime-db
+remote:        - mime-types@2.1.12 node_modules/express/node_modules/type-is/nod
+e_modules/mime-types
+remote:        - type-is@1.6.13 node_modules/express/node_modules/type-is
+remote:        extend@3.0.0 node_modules/request/node_modules/extend -> node_mod
+ules/extend
+remote:        extsprintf@1.0.2 node_modules/request/node_modules/http-signature
+/node_modules/jsprim/node_modules/extsprintf -> node_modules/extsprintf
+remote:        finalhandler@0.5.0 node_modules/express/node_modules/finalhandler
+ -> node_modules/finalhandler
+remote:        forever-agent@0.6.1 node_modules/request/node_modules/forever-age
+nt -> node_modules/forever-agent
+remote:        forwarded@0.1.0 node_modules/express/node_modules/proxy-addr/node
+_modules/forwarded -> node_modules/forwarded
+remote:        fresh@0.3.0 node_modules/express/node_modules/fresh -> node_modul
+es/fresh
+remote:        generate-function@2.0.0 node_modules/request/node_modules/har-val
+idator/node_modules/is-my-json-valid/node_modules/generate-function -> node_modu
+les/generate-function
+remote:        getpass@0.1.6 node_modules/request/node_modules/http-signature/no
+de_modules/sshpk/node_modules/getpass -> node_modules/getpass
+remote:        graceful-readlink@1.0.1 node_modules/request/node_modules/har-val
+idator/node_modules/commander/node_modules/graceful-readlink -> node_modules/gra
+ceful-readlink
+remote:        commander@2.9.0 node_modules/request/node_modules/har-validator/n
+ode_modules/commander -> node_modules/commander
+remote:        has-ansi@2.0.0 node_modules/request/node_modules/har-validator/no
+de_modules/chalk/node_modules/has-ansi -> node_modules/has-ansi
+remote:        hoek@2.16.3 node_modules/request/node_modules/hawk/node_modules/h
+oek -> node_modules/hoek
+remote:        boom@2.10.1 node_modules/request/node_modules/hawk/node_modules/b
+oom -> node_modules/boom
+remote:        cryptiles@2.0.5 node_modules/request/node_modules/hawk/node_modul
+es/cryptiles -> node_modules/cryptiles
+remote:        ipaddr.js@1.1.1 node_modules/express/node_modules/proxy-addr/node
+_modules/ipaddr.js -> node_modules/ipaddr.js
+remote:        is-property@1.0.2 node_modules/request/node_modules/har-validator
+/node_modules/is-my-json-valid/node_modules/generate-object-property/node_module
+s/is-property -> node_modules/is-property
+remote:        generate-object-property@1.2.0 node_modules/request/node_modules/
+har-validator/node_modules/is-my-json-valid/node_modules/generate-object-propert
+y -> node_modules/generate-object-property
+remote:        is-typedarray@1.0.0 node_modules/request/node_modules/is-typedarr
+ay -> node_modules/is-typedarray
+remote:        isarray@1.0.0 node_modules/cheerio/node_modules/htmlparser2/node_
+modules/readable-stream/node_modules/isarray -> node_modules/isarray
+remote:        isstream@0.1.2 node_modules/request/node_modules/isstream -> node
+_modules/isstream
+remote:        jsbn@0.1.0 node_modules/request/node_modules/http-signature/node_
+modules/sshpk/node_modules/jsbn -> node_modules/jsbn
+remote:        jodid25519@1.0.2 node_modules/request/node_modules/http-signature
+/node_modules/sshpk/node_modules/jodid25519 -> node_modules/jodid25519
+remote:        ecc-jsbn@0.1.1 node_modules/request/node_modules/http-signature/n
+ode_modules/sshpk/node_modules/ecc-jsbn -> node_modules/ecc-jsbn
+remote:        json-schema@0.2.3 node_modules/request/node_modules/http-signatur
+e/node_modules/jsprim/node_modules/json-schema -> node_modules/json-schema
+remote:        json-stringify-safe@5.0.1 node_modules/request/node_modules/json-
+stringify-safe -> node_modules/json-stringify-safe
+remote:        jsonpointer@4.0.0 node_modules/request/node_modules/har-validator
+/node_modules/is-my-json-valid/node_modules/jsonpointer -> node_modules/jsonpoin
+ter
+remote:        lodash.assignin@4.2.0 node_modules/cheerio/node_modules/lodash.as
+signin -> node_modules/lodash.assignin
+remote:        lodash.bind@4.2.1 node_modules/cheerio/node_modules/lodash.bind -
+> node_modules/lodash.bind
+remote:        lodash.defaults@4.2.0 node_modules/cheerio/node_modules/lodash.de
+faults -> node_modules/lodash.defaults
+remote:        lodash.filter@4.6.0 node_modules/cheerio/node_modules/lodash.filt
+er -> node_modules/lodash.filter
+remote:        lodash.flatten@4.4.0 node_modules/cheerio/node_modules/lodash.fla
+tten -> node_modules/lodash.flatten
+remote:        lodash.foreach@4.5.0 node_modules/cheerio/node_modules/lodash.for
+each -> node_modules/lodash.foreach
+remote:        lodash.map@4.6.0 node_modules/cheerio/node_modules/lodash.map ->
+node_modules/lodash.map
+remote:        lodash.merge@4.6.0 node_modules/cheerio/node_modules/lodash.merge
+ -> node_modules/lodash.merge
+remote:        lodash.pick@4.4.0 node_modules/cheerio/node_modules/lodash.pick -
+> node_modules/lodash.pick
+remote:        lodash.reduce@4.6.0 node_modules/cheerio/node_modules/lodash.redu
+ce -> node_modules/lodash.reduce
+remote:        lodash.reject@4.6.0 node_modules/cheerio/node_modules/lodash.reje
+ct -> node_modules/lodash.reject
+remote:        lodash.some@4.6.0 node_modules/cheerio/node_modules/lodash.some -
+> node_modules/lodash.some
+remote:        merge-descriptors@1.0.1 node_modules/express/node_modules/merge-d
+escriptors -> node_modules/merge-descriptors
+remote:        methods@1.1.2 node_modules/express/node_modules/methods -> node_m
+odules/methods
+remote:        mime@1.3.4 node_modules/express/node_modules/send/node_modules/mi
+me -> node_modules/mime
+remote:        negotiator@0.6.1 node_modules/express/node_modules/accepts/node_m
+odules/negotiator -> node_modules/negotiator
+remote:        accepts@1.3.3 node_modules/express/node_modules/accepts -> node_m
+odules/accepts
+remote:        node-uuid@1.4.7 node_modules/request/node_modules/node-uuid -> no
+de_modules/node-uuid
+remote:        nth-check@1.0.1 node_modules/cheerio/node_modules/css-select/node
+_modules/nth-check -> node_modules/nth-check
+remote:        css-select@1.2.0 node_modules/cheerio/node_modules/css-select ->
+node_modules/css-select
+remote:        oauth-sign@0.8.2 node_modules/request/node_modules/oauth-sign ->
+node_modules/oauth-sign
+remote:        parseurl@1.3.1 node_modules/express/node_modules/parseurl -> node
+_modules/parseurl
+remote:        path-to-regexp@0.1.7 node_modules/express/node_modules/path-to-re
+gexp -> node_modules/path-to-regexp
+remote:        pinkie@2.0.4 node_modules/request/node_modules/har-validator/node
+_modules/pinkie-promise/node_modules/pinkie -> node_modules/pinkie
+remote:        pinkie-promise@2.0.1 node_modules/request/node_modules/har-valida
+tor/node_modules/pinkie-promise -> node_modules/pinkie-promise
+remote:        process-nextick-args@1.0.7 node_modules/cheerio/node_modules/html
+parser2/node_modules/readable-stream/node_modules/process-nextick-args -> node_m
+odules/process-nextick-args
+remote:        proxy-addr@1.1.2 node_modules/express/node_modules/proxy-addr ->
+node_modules/proxy-addr
+remote:        range-parser@1.2.0 node_modules/express/node_modules/range-parser
+ -> node_modules/range-parser
+remote:        - core-util-is@1.0.2 node_modules/request/node_modules/bl/node_mo
+dules/readable-stream/node_modules/core-util-is
+remote:        - inherits@2.0.3 node_modules/request/node_modules/bl/node_module
+s/readable-stream/node_modules/inherits
+remote:        - isarray@1.0.0 node_modules/request/node_modules/bl/node_modules
+/readable-stream/node_modules/isarray
+remote:        - process-nextick-args@1.0.7 node_modules/request/node_modules/bl
+/node_modules/readable-stream/node_modules/process-nextick-args
+remote:        - string_decoder@0.10.31 node_modules/request/node_modules/bl/nod
+e_modules/readable-stream/node_modules/string_decoder
+remote:        - util-deprecate@1.0.2 node_modules/request/node_modules/bl/node_
+modules/readable-stream/node_modules/util-deprecate
+remote:        - readable-stream@2.0.6 node_modules/request/node_modules/bl/node
+_modules/readable-stream
+remote:        - bl@1.1.2 node_modules/request/node_modules/bl
+remote:        - ansi-regex@2.0.0 node_modules/request/node_modules/har-validato
+r/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+remote:        - mime-db@1.24.0 node_modules/request/node_modules/mime-types/nod
+e_modules/mime-db
+remote:        - mime-types@2.1.12 node_modules/request/node_modules/mime-types
+remote:        - form-data@2.0.0 node_modules/request/node_modules/form-data
+remote:        - tough-cookie@2.3.1 node_modules/request/node_modules/tough-cook
+ie
+remote:        send@0.14.1 node_modules/express/node_modules/send -> node_module
+s/send
+remote:        serve-static@1.11.1 node_modules/express/node_modules/serve-stati
+c -> node_modules/serve-static
+remote:        sntp@1.0.9 node_modules/request/node_modules/hawk/node_modules/sn
+tp -> node_modules/sntp
+remote:        hawk@3.1.3 node_modules/request/node_modules/hawk -> node_modules
+/hawk
+remote:        assert-plus@1.0.0 node_modules/request/node_modules/http-signatur
+e/node_modules/sshpk/node_modules/assert-plus -> node_modules/sshpk/node_modules
+/assert-plus
+remote:        string_decoder@0.10.31 node_modules/cheerio/node_modules/htmlpars
+er2/node_modules/readable-stream/node_modules/string_decoder -> node_modules/str
+ing_decoder
+remote:        stringstream@0.0.5 node_modules/request/node_modules/stringstream
+ -> node_modules/stringstream
+remote:        strip-ansi@3.0.1 node_modules/request/node_modules/har-validator/
+node_modules/chalk/node_modules/strip-ansi -> node_modules/strip-ansi
+remote:        supports-color@2.0.0 node_modules/request/node_modules/har-valida
+tor/node_modules/chalk/node_modules/supports-color -> node_modules/supports-colo
+r
+remote:        chalk@1.1.3 node_modules/request/node_modules/har-validator/node_
+modules/chalk -> node_modules/chalk
+remote:        tunnel-agent@0.4.3 node_modules/request/node_modules/tunnel-agent
+ -> node_modules/tunnel-agent
+remote:        tweetnacl@0.14.3 node_modules/request/node_modules/http-signature
+/node_modules/sshpk/node_modules/tweetnacl -> node_modules/tweetnacl
+remote:        bcrypt-pbkdf@1.0.0 node_modules/request/node_modules/http-signatu
+re/node_modules/sshpk/node_modules/bcrypt-pbkdf -> node_modules/bcrypt-pbkdf
+remote:        sshpk@1.10.1 node_modules/request/node_modules/http-signature/nod
+e_modules/sshpk -> node_modules/sshpk
+remote:        util-deprecate@1.0.2 node_modules/cheerio/node_modules/htmlparser
+2/node_modules/readable-stream/node_modules/util-deprecate -> node_modules/util-
+deprecate
+remote:        readable-stream@2.1.5 node_modules/cheerio/node_modules/htmlparse
+r2/node_modules/readable-stream -> node_modules/readable-stream
+remote:        utils-merge@1.0.0 node_modules/express/node_modules/utils-merge -
+> node_modules/utils-merge
+remote:        vary@1.1.0 node_modules/express/node_modules/vary -> node_modules
+/vary
+remote:        verror@1.3.6 node_modules/request/node_modules/http-signature/nod
+e_modules/jsprim/node_modules/verror -> node_modules/verror
+remote:        jsprim@1.3.1 node_modules/request/node_modules/http-signature/nod
+e_modules/jsprim -> node_modules/jsprim
+remote:        http-signature@1.1.1 node_modules/request/node_modules/http-signa
+ture -> node_modules/http-signature
+remote:        xtend@4.0.1 node_modules/request/node_modules/har-validator/node_
+modules/is-my-json-valid/node_modules/xtend -> node_modules/xtend
+remote:        is-my-json-valid@2.15.0 node_modules/request/node_modules/har-val
+idator/node_modules/is-my-json-valid -> node_modules/is-my-json-valid
+remote:        har-validator@2.0.6 node_modules/request/node_modules/har-validat
+or -> node_modules/har-validator
+remote:        node-web-scrape@0.0.1 /tmp/build_0cc055d35ec8c3e00144e692ee25ab72
+
+remote:        ├── body-parser@1.15.2
+remote:        ├─┬ cheerio@0.22.0
+remote:        │ └── htmlparser2@3.9.2
+remote:        └─┬ request@2.78.0
+remote:        ├── form-data@2.1.2
+remote:        ├─┬ http-signature@1.1.1
+remote:        │ └─┬ sshpk@1.10.1
+remote:        │   ├─┬ dashdash@1.14.0
+remote:        │   │ └── assert-plus@1.0.0
+remote:        │   └─┬ getpass@0.1.6
+remote:        │     └── assert-plus@1.0.0
+remote:        ├── qs@6.3.0
+remote:        └─┬ tough-cookie@2.3.2
+remote:        └── punycode@1.4.1
+remote:
+remote:
+remote: -----> Caching build
+remote:        Clearing previous node cache
+remote:        Saving 2 cacheDirectories (default):
+remote:        - node_modules
+remote:        - bower_components (nothing to cache)
+remote:
+remote: -----> Build succeeded!
+remote:        ├── body-parser@1.15.2
+remote:        ├── cheerio@0.22.0 invalid
+remote:        ├── express@4.14.0 invalid
+remote:        └── request@2.78.0
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 67M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://guarded-wildwood-27870.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as C
+onsolas!
+To https://git.heroku.com/guarded-wildwood-27870.git
+ * [new branch]      master -> master
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>
+
+
+
+remote:        finalhandler@0.5.0 node_modules/express/node_modules/finalhandler
+ -> node_modules/finalhandler
+remote:        forever-agent@0.6.1 node_modules/request/node_modules/forever-age
+nt -> node_modules/forever-agent
+remote:        forwarded@0.1.0 node_modules/express/node_modules/proxy-addr/node
+_modules/forwarded -> node_modules/forwarded
+remote:        fresh@0.3.0 node_modules/express/node_modules/fresh -> node_modul
+es/fresh
+remote:        generate-function@2.0.0 node_modules/request/node_modules/har-val
+idator/node_modules/is-my-json-valid/node_modules/generate-function -> node_modu
+les/generate-function
+remote:        getpass@0.1.6 node_modules/request/node_modules/http-signature/no
+de_modules/sshpk/node_modules/getpass -> node_modules/getpass
+remote:        graceful-readlink@1.0.1 node_modules/request/node_modules/har-val
+idator/node_modules/commander/node_modules/graceful-readlink -> node_modules/gra
+ceful-readlink
+remote:        commander@2.9.0 node_modules/request/node_modules/har-validator/n
+ode_modules/commander -> node_modules/commander
+remote:        has-ansi@2.0.0 node_modules/request/node_modules/har-validator/no
+de_modules/chalk/node_modules/has-ansi -> node_modules/has-ansi
+remote:        hoek@2.16.3 node_modules/request/node_modules/hawk/node_modules/h
+oek -> node_modules/hoek
+remote:        boom@2.10.1 node_modules/request/node_modules/hawk/node_modules/b
+oom -> node_modules/boom
+remote:        cryptiles@2.0.5 node_modules/request/node_modules/hawk/node_modul
+es/cryptiles -> node_modules/cryptiles
+remote:        ipaddr.js@1.1.1 node_modules/express/node_modules/proxy-addr/node
+_modules/ipaddr.js -> node_modules/ipaddr.js
+remote:        is-property@1.0.2 node_modules/request/node_modules/har-validator
+/node_modules/is-my-json-valid/node_modules/generate-object-property/node_module
+s/is-property -> node_modules/is-property
+remote:        generate-object-property@1.2.0 node_modules/request/node_modules/
+har-validator/node_modules/is-my-json-valid/node_modules/generate-object-propert
+y -> node_modules/generate-object-property
+remote:        is-typedarray@1.0.0 node_modules/request/node_modules/is-typedarr
+ay -> node_modules/is-typedarray
+remote:        isarray@1.0.0 node_modules/cheerio/node_modules/htmlparser2/node_
+modules/readable-stream/node_modules/isarray -> node_modules/isarray
+remote:        isstream@0.1.2 node_modules/request/node_modules/isstream -> node
+_modules/isstream
+remote:        jsbn@0.1.0 node_modules/request/node_modules/http-signature/node_
+modules/sshpk/node_modules/jsbn -> node_modules/jsbn
+remote:        jodid25519@1.0.2 node_modules/request/node_modules/http-signature
+/node_modules/sshpk/node_modules/jodid25519 -> node_modules/jodid25519
+remote:        ecc-jsbn@0.1.1 node_modules/request/node_modules/http-signature/n
+ode_modules/sshpk/node_modules/ecc-jsbn -> node_modules/ecc-jsbn
+remote:        json-schema@0.2.3 node_modules/request/node_modules/http-signatur
+e/node_modules/jsprim/node_modules/json-schema -> node_modules/json-schema
+remote:        json-stringify-safe@5.0.1 node_modules/request/node_modules/json-
+stringify-safe -> node_modules/json-stringify-safe
+remote:        jsonpointer@4.0.0 node_modules/request/node_modules/har-validator
+/node_modules/is-my-json-valid/node_modules/jsonpointer -> node_modules/jsonpoin
+ter
+remote:        lodash.assignin@4.2.0 node_modules/cheerio/node_modules/lodash.as
+signin -> node_modules/lodash.assignin
+remote:        lodash.bind@4.2.1 node_modules/cheerio/node_modules/lodash.bind -
+> node_modules/lodash.bind
+remote:        lodash.defaults@4.2.0 node_modules/cheerio/node_modules/lodash.de
+faults -> node_modules/lodash.defaults
+remote:        lodash.filter@4.6.0 node_modules/cheerio/node_modules/lodash.filt
+er -> node_modules/lodash.filter
+remote:        lodash.flatten@4.4.0 node_modules/cheerio/node_modules/lodash.fla
+tten -> node_modules/lodash.flatten
+remote:        lodash.foreach@4.5.0 node_modules/cheerio/node_modules/lodash.for
+each -> node_modules/lodash.foreach
+remote:        lodash.map@4.6.0 node_modules/cheerio/node_modules/lodash.map ->
+node_modules/lodash.map
+remote:        lodash.merge@4.6.0 node_modules/cheerio/node_modules/lodash.merge
+ -> node_modules/lodash.merge
+remote:        lodash.pick@4.4.0 node_modules/cheerio/node_modules/lodash.pick -
+> node_modules/lodash.pick
+remote:        lodash.reduce@4.6.0 node_modules/cheerio/node_modules/lodash.redu
+ce -> node_modules/lodash.reduce
+remote:        lodash.reject@4.6.0 node_modules/cheerio/node_modules/lodash.reje
+ct -> node_modules/lodash.reject
+remote:        lodash.some@4.6.0 node_modules/cheerio/node_modules/lodash.some -
+> node_modules/lodash.some
+remote:        merge-descriptors@1.0.1 node_modules/express/node_modules/merge-d
+escriptors -> node_modules/merge-descriptors
+remote:        methods@1.1.2 node_modules/express/node_modules/methods -> node_m
+odules/methods
+remote:        mime@1.3.4 node_modules/express/node_modules/send/node_modules/mi
+me -> node_modules/mime
+remote:        negotiator@0.6.1 node_modules/express/node_modules/accepts/node_m
+odules/negotiator -> node_modules/negotiator
+remote:        accepts@1.3.3 node_modules/express/node_modules/accepts -> node_m
+odules/accepts
+remote:        node-uuid@1.4.7 node_modules/request/node_modules/node-uuid -> no
+de_modules/node-uuid
+remote:        nth-check@1.0.1 node_modules/cheerio/node_modules/css-select/node
+_modules/nth-check -> node_modules/nth-check
+remote:        css-select@1.2.0 node_modules/cheerio/node_modules/css-select ->
+node_modules/css-select
+remote:        oauth-sign@0.8.2 node_modules/request/node_modules/oauth-sign ->
+node_modules/oauth-sign
+remote:        parseurl@1.3.1 node_modules/express/node_modules/parseurl -> node
+_modules/parseurl
+remote:        path-to-regexp@0.1.7 node_modules/express/node_modules/path-to-re
+gexp -> node_modules/path-to-regexp
+remote:        pinkie@2.0.4 node_modules/request/node_modules/har-validator/node
+_modules/pinkie-promise/node_modules/pinkie -> node_modules/pinkie
+remote:        pinkie-promise@2.0.1 node_modules/request/node_modules/har-valida
+tor/node_modules/pinkie-promise -> node_modules/pinkie-promise
+remote:        process-nextick-args@1.0.7 node_modules/cheerio/node_modules/html
+parser2/node_modules/readable-stream/node_modules/process-nextick-args -> node_m
+odules/process-nextick-args
+remote:        proxy-addr@1.1.2 node_modules/express/node_modules/proxy-addr ->
+node_modules/proxy-addr
+remote:        range-parser@1.2.0 node_modules/express/node_modules/range-parser
+ -> node_modules/range-parser
+remote:        - core-util-is@1.0.2 node_modules/request/node_modules/bl/node_mo
+dules/readable-stream/node_modules/core-util-is
+remote:        - inherits@2.0.3 node_modules/request/node_modules/bl/node_module
+s/readable-stream/node_modules/inherits
+remote:        - isarray@1.0.0 node_modules/request/node_modules/bl/node_modules
+/readable-stream/node_modules/isarray
+remote:        - process-nextick-args@1.0.7 node_modules/request/node_modules/bl
+/node_modules/readable-stream/node_modules/process-nextick-args
+remote:        - string_decoder@0.10.31 node_modules/request/node_modules/bl/nod
+e_modules/readable-stream/node_modules/string_decoder
+remote:        - util-deprecate@1.0.2 node_modules/request/node_modules/bl/node_
+modules/readable-stream/node_modules/util-deprecate
+remote:        - readable-stream@2.0.6 node_modules/request/node_modules/bl/node
+_modules/readable-stream
+remote:        - bl@1.1.2 node_modules/request/node_modules/bl
+remote:        - ansi-regex@2.0.0 node_modules/request/node_modules/har-validato
+r/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+remote:        - mime-db@1.24.0 node_modules/request/node_modules/mime-types/nod
+e_modules/mime-db
+remote:        - mime-types@2.1.12 node_modules/request/node_modules/mime-types
+remote:        - form-data@2.0.0 node_modules/request/node_modules/form-data
+remote:        - tough-cookie@2.3.1 node_modules/request/node_modules/tough-cook
+ie
+remote:        send@0.14.1 node_modules/express/node_modules/send -> node_module
+s/send
+remote:        serve-static@1.11.1 node_modules/express/node_modules/serve-stati
+c -> node_modules/serve-static
+remote:        sntp@1.0.9 node_modules/request/node_modules/hawk/node_modules/sn
+tp -> node_modules/sntp
+remote:        hawk@3.1.3 node_modules/request/node_modules/hawk -> node_modules
+/hawk
+remote:        assert-plus@1.0.0 node_modules/request/node_modules/http-signatur
+e/node_modules/sshpk/node_modules/assert-plus -> node_modules/sshpk/node_modules
+/assert-plus
+remote:        string_decoder@0.10.31 node_modules/cheerio/node_modules/htmlpars
+er2/node_modules/readable-stream/node_modules/string_decoder -> node_modules/str
+ing_decoder
+remote:        stringstream@0.0.5 node_modules/request/node_modules/stringstream
+ -> node_modules/stringstream
+remote:        strip-ansi@3.0.1 node_modules/request/node_modules/har-validator/
+node_modules/chalk/node_modules/strip-ansi -> node_modules/strip-ansi
+remote:        supports-color@2.0.0 node_modules/request/node_modules/har-valida
+tor/node_modules/chalk/node_modules/supports-color -> node_modules/supports-colo
+r
+remote:        chalk@1.1.3 node_modules/request/node_modules/har-validator/node_
+modules/chalk -> node_modules/chalk
+remote:        tunnel-agent@0.4.3 node_modules/request/node_modules/tunnel-agent
+ -> node_modules/tunnel-agent
+remote:        tweetnacl@0.14.3 node_modules/request/node_modules/http-signature
+/node_modules/sshpk/node_modules/tweetnacl -> node_modules/tweetnacl
+remote:        bcrypt-pbkdf@1.0.0 node_modules/request/node_modules/http-signatu
+re/node_modules/sshpk/node_modules/bcrypt-pbkdf -> node_modules/bcrypt-pbkdf
+remote:        sshpk@1.10.1 node_modules/request/node_modules/http-signature/nod
+e_modules/sshpk -> node_modules/sshpk
+remote:        util-deprecate@1.0.2 node_modules/cheerio/node_modules/htmlparser
+2/node_modules/readable-stream/node_modules/util-deprecate -> node_modules/util-
+deprecate
+remote:        readable-stream@2.1.5 node_modules/cheerio/node_modules/htmlparse
+r2/node_modules/readable-stream -> node_modules/readable-stream
+remote:        utils-merge@1.0.0 node_modules/express/node_modules/utils-merge -
+> node_modules/utils-merge
+remote:        vary@1.1.0 node_modules/express/node_modules/vary -> node_modules
+/vary
+remote:        verror@1.3.6 node_modules/request/node_modules/http-signature/nod
+e_modules/jsprim/node_modules/verror -> node_modules/verror
+remote:        jsprim@1.3.1 node_modules/request/node_modules/http-signature/nod
+e_modules/jsprim -> node_modules/jsprim
+remote:        http-signature@1.1.1 node_modules/request/node_modules/http-signa
+ture -> node_modules/http-signature
+remote:        xtend@4.0.1 node_modules/request/node_modules/har-validator/node_
+modules/is-my-json-valid/node_modules/xtend -> node_modules/xtend
+remote:        is-my-json-valid@2.15.0 node_modules/request/node_modules/har-val
+idator/node_modules/is-my-json-valid -> node_modules/is-my-json-valid
+remote:        har-validator@2.0.6 node_modules/request/node_modules/har-validat
+or -> node_modules/har-validator
+remote:        node-web-scrape@0.0.1 /tmp/build_0cc055d35ec8c3e00144e692ee25ab72
+
+remote:        ├── body-parser@1.15.2
+remote:        ├─┬ cheerio@0.22.0
+remote:        │ └── htmlparser2@3.9.2
+remote:        └─┬ request@2.78.0
+remote:        ├── form-data@2.1.2
+remote:        ├─┬ http-signature@1.1.1
+remote:        │ └─┬ sshpk@1.10.1
+remote:        │   ├─┬ dashdash@1.14.0
+remote:        │   │ └── assert-plus@1.0.0
+remote:        │   └─┬ getpass@0.1.6
+remote:        │     └── assert-plus@1.0.0
+remote:        ├── qs@6.3.0
+remote:        └─┬ tough-cookie@2.3.2
+remote:        └── punycode@1.4.1
+remote:
+remote:
+remote: -----> Caching build
+remote:        Clearing previous node cache
+remote:        Saving 2 cacheDirectories (default):
+remote:        - node_modules
+remote:        - bower_components (nothing to cache)
+remote:
+remote: -----> Build succeeded!
+remote:        ├── body-parser@1.15.2
+remote:        ├── cheerio@0.22.0 invalid
+remote:        ├── express@4.14.0 invalid
+remote:        └── request@2.78.0
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 67M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://guarded-wildwood-27870.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as C
+onsolas!
+To https://git.heroku.com/guarded-wildwood-27870.git
+ * [new branch]      master -> master
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>heroku ps:scale web=1
+Scaling dynos... done, now running web at 1:Free
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>heroku:open
+Синтаксическая ошибка в имени файла, имени папки или метке тома.
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>heroku open
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>heroku logs --tail
+2016-11-08T11:48:57.187544+00:00 heroku[api]: Enable Logplex by egortictac@mail.
+ru
+2016-11-08T11:48:57.187544+00:00 heroku[api]: Release v2 created by egortictac@m
+ail.ru
+2016-11-08T11:57:57.975602+00:00 heroku[api]: Scaled to web@1:Free by egortictac
+@mail.ru
+2016-11-08T11:57:57.977330+00:00 heroku[api]: Deploy 4413cfd by egortictac@mail.
+ru
+2016-11-08T11:57:57.977391+00:00 heroku[api]: Release v3 created by egortictac@m
+ail.ru
+2016-11-08T11:57:58.417140+00:00 heroku[slug-compiler]: Slug compilation started
+
+2016-11-08T11:57:58.417151+00:00 heroku[slug-compiler]: Slug compilation finishe
+d
+2016-11-08T11:58:02.471104+00:00 heroku[web.1]: Starting process with command `n
+pm start`
+2016-11-08T11:58:05.642610+00:00 app[web.1]:
+2016-11-08T11:58:05.642626+00:00 app[web.1]: > node-web-scrape@0.0.1 start /app
+2016-11-08T11:58:05.642627+00:00 app[web.1]: > node server.js
+2016-11-08T11:58:05.642627+00:00 app[web.1]:
+2016-11-08T11:58:06.167035+00:00 app[web.1]: Tue, 08 Nov 2016 11:58:06 GMT body-
+parser deprecated undefined extended: provide extended option at server.js:16:20
+
+2016-11-08T11:58:06.186324+00:00 app[web.1]: Server started on port 8081
+2016-11-08T11:59:02.687465+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web
+process failed to bind to $PORT within 60 seconds of launch
+2016-11-08T11:59:02.687556+00:00 heroku[web.1]: Stopping process with SIGKILL
+2016-11-08T11:59:02.830763+00:00 heroku[web.1]: State changed from starting to c
+rashed
+2016-11-08T11:59:02.831995+00:00 heroku[web.1]: State changed from crashed to st
+arting
+2016-11-08T11:59:02.800875+00:00 heroku[web.1]: Process exited with status 137
+2016-11-08T11:59:05.956138+00:00 heroku[web.1]: Starting process with command `n
+pm start`
+2016-11-08T11:59:08.378193+00:00 app[web.1]:
+2016-11-08T11:59:08.378211+00:00 app[web.1]: > node server.js
+2016-11-08T11:59:08.378210+00:00 app[web.1]: > node-web-scrape@0.0.1 start /app
+2016-11-08T11:59:08.378211+00:00 app[web.1]:
+2016-11-08T11:59:08.915684+00:00 app[web.1]: Server started on port 8081
+2016-11-08T11:59:08.898671+00:00 app[web.1]: Tue, 08 Nov 2016 11:59:08 GMT body-
+parser deprecated undefined extended: provide extended option at server.js:16:20
+
+2016-11-08T12:00:06.110102+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web
+process failed to bind to $PORT within 60 seconds of launch
+2016-11-08T12:00:06.110218+00:00 heroku[web.1]: Stopping process with SIGKILL
+2016-11-08T12:00:06.238401+00:00 heroku[web.1]: State changed from starting to c
+rashed
+2016-11-08T12:00:06.242397+00:00 heroku[web.1]: Process exited with status 137
+2016-11-08T12:01:06.667320+00:00 heroku[router]: at=error code=H10 desc="App cra
+shed" method=GET path="/" host=guarded-wildwood-27870.herokuapp.com request_id=7
+f0eef17-8a67-4cfd-b9ab-9e82f4275db7 fwd="49.213.19.161" dyno= connect= service=
+status=503 bytes=
+2016-11-08T12:01:11.824563+00:00 heroku[router]: at=error code=H10 desc="App cra
+shed" method=GET path="/favicon.ico" host=guarded-wildwood-27870.herokuapp.com r
+equest_id=905d32c5-5e58-448f-9cad-51f3b2ce4253 fwd="49.213.19.161" dyno= connect
+= service= status=503 bytes=
+
+C:\Users\Egor\Desktop\Coding\Bridges_SPb\First_Try>

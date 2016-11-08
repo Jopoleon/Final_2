@@ -1,0 +1,101 @@
+//colors
+$color_0: rgb(0, 186, 195)
+$color_1: rgb(153, 233, 237)
+
+//fonts
+$font_0: Raleway
+$font_1: sans-serif
+
+//urls
+$url_0: url(../img/bridge_bg_sm.jpg)
+$url_1: url(../img/bridge_logo.png)
+
+body 
+    background-repeat: no-repeat
+    background-size: cover
+    font-family: $font_0, $font_1
+    min-width: 320px
+
+.checkboxes_ships 
+    margin-top: 5%
+    text-align: center
+    font-size: 30px
+
+.hint1 
+    text-align: center
+
+.chb 
+    padding: 10px
+    text-align: center
+    width: 20px
+    height: 20px
+
+.logo_holder 
+    
+    margin: 10px
+    height: 12%
+    width: 12%
+    background-image: $url_1
+    background-repeat: no-repeat
+    background-size: contain
+
+.logo_image 
+
+.button_holder 
+    margin-top: 10%
+    text-align: center
+    width: 100%
+
+#button12 
+    //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+    border-radius: 50px
+    margin: 0 auto
+    font-size: 14px
+    font-weight: 800
+    margin: 15px
+    width: 220px
+    height: 50px
+    background-color: $color_0
+    //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    transition: background-color 0.3s ease
+    &:focus 
+        outline: 0 !important
+
+    &:hover 
+        background-color: $color_1
+
+
+#header1 
+    font-weight: 600
+    font-style: normal
+    text-align: center
+    font-family: $font_0, $font_1
+
+#header2 
+    font-weight: 600
+    font-style: bold
+    text-align: center
+    font-family: $font_0, $font_1
+
+#all_bridges 
+    margin: 0 auto
+    margin-bottom: 40px
+    text-align: center
+    width: 70%
+    td 
+        padding: 3px
+        border: 3px solid
+        border-color: $color_0
+
+    tr 
+        margin: 0 auto
+
+
+#vaildBridges 
+    margin: 0 auto
+    text-align: center
+    width: 70%
+    td 
+        padding: 3px
+        border: 3px solid
+        border-color: $color_0

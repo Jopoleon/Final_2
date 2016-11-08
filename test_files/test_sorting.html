@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <script type="<javascript>" src="server.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <!--//action="http://localhost:8081/scrape"-->
+    <form>
+        <!--       button for sending a request to server-->
+        <button id="button12">Scrape water height</button>
+    </form>
+
+
+    <div id="response21">
+
+        <!--     div for displaying the respond from server   -->
+    </div>
+
+    <p id="p1">___!</p>
+    <h1 id="table1_header"></h1>
+    <div id="table1">
+       
+
+    </div>
+    <h1 id="table2_header">Мосты, под которыми можно пройти.</h1>
+    <div id="table2">
+
+        
+
+    </div>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $("#button12").click(function () {
+                 event.preventDefault();
+                //console.clear();
+                var obj = [
+                    {
+                        name: "Great",
+                        height: 340
+                        },
+                    {
+                        name: "Shit",
+                        height: 270
+                        },
+                    {
+                        name: "Hello",
+                        height: 400
+                        },
+                    {
+                        name: "b1",
+                        height: 210
+                        },
+                    {
+                        name: "b2",
+                        height: 300
+                        }
+                    ]
+                var obj_g = [];
+                window.shipValue = 150;
+                window.waterlevel = 140;
+                console.log(window.shipValue);
+                console.log(window.waterlevel);
+
+                //sorting
+                for (var i = 0; i < obj.length; i++) {
+                    // console.log("inside for every obj[i].height: " + obj[i].height)
+                    if ((window.shipValue + window.waterlevel) < obj[i].height)
+                    //new array of bridges that ship can pass under
+                    {
+                        //console.log("Inside if op " + obj[i])
+                        obj_g.push(obj[i]);
+                    };
+
+                };
+                console.log("obj_g length:" + obj_g.length)
+
+                console.log("obj_g: ")
+                for (var i = 0; i < obj_g.length; i++) {
+                    console.log(" " + obj_g[i].name + " " + obj_g[i].height + "\n")
+
+                }
+                
+                $("#table1").empty();
+
+                $("#table2").empty();
+
+                var tbl1 = $("<table>").attr("id", "mytable1");
+                $("#table1").append(tbl1).fadeIn(600);
+                for (var i = 0; i < obj.length; i++) {
+                    var tr = "<tr>";
+                    var td1 = "<td>" + obj[i].name + "</td>";
+                    var td2 = "<td>" + obj[i].height + "</td></tr>";
+                    
+                    $("#mytable1").append(tr + td1 + td2);
+                };
+
+
+                var tbl2 = $("<table>").attr("id", "mytable2");
+                $("#table2").append(tbl2);
+                for (var i = 0; i < obj_g.length; i++) {
+                    var tr = "<tr>";
+                    var td1 = "<td>" + obj_g[i].name + "</td>";
+                    var td2 = "<td>" + obj_g[i].height + "</td></tr>";
+
+
+                    $("#mytable2").append(tr + td1 + td2);
+                };
+
+
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
