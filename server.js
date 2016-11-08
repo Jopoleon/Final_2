@@ -5,6 +5,8 @@ var cheerio = require('cheerio');
 var app = express();
 var url = require("url");
 var bodyParser = require('body-parser');
+
+var port = process.env.PORT || 8081;
 // Xpath to my DOM element:
 //// *[@id="waterleveltable"]/table/tbody/tr[2]/td[2]/span
 //Selector for needed dom elment:
@@ -13,7 +15,20 @@ var bodyParser = require('body-parser');
 //url http://localhost:8081/scrape
 //http://spun.fkpkzs.ru/Level/Gorny
 
+
+app.set('view engine', 'ejs');
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function(req,res) {
+ 
+   res.render('index1');
+    
+});
+
+
 app.use(bodyParser.urlencoded({ extended: true }));
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -47,6 +62,6 @@ app.post('/scrape', function (req, res, next) {
     })
 })
 
-app.listen('8081')
+app.listen(port);
 console.log('Server started on port 8081');
 exports = module.exports = app;
