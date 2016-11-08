@@ -54,7 +54,7 @@ $(document).ready(function () {
                 value: window.checkedValue
             },
             type: "POST",
-            url: "http://localhost:8081/scrape",
+            url: "https://localhost:8081/scrape",
 
             //if post request is successful -> do function with logic
             success: function (data) {
