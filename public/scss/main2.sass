@@ -1,6 +1,6 @@
 //colors
 $color_0: rgb(0, 186, 195)
-$color_1: rgb(153, 233, 237)
+$color_1: rgb(1, 160, 168)
 
 //fonts
 $font_0: Raleway
@@ -15,87 +15,180 @@ body
     background-size: cover
     font-family: $font_0, $font_1
     min-width: 320px
+    position: relative
+    line-height: 1.42857
+    min-width: 320px
+    -webkit-font-smoothing: antialised
 
+.loader
+    background: none repeat scroll 0 0 #ffffff
+    bottom: 0
+    height: 100%
+    left: 0
+    position: fixed
+    right: 0
+    top: 0
+    width: 100%
+    z-index: 9999
+    background-image: url("../img/loader2.gif")
+    background-repeat: no-repeat	
+    margin: 0 auto
+    background-position: center center
+    
 .checkboxes_ships 
-    margin-top: 5%
+    margin-top: 10px
     text-align: center
-    font-size: 30px
+    font-size: 20px
 
 .hint1 
+    margin: 0 auto
+    padding: 5px
+    text-align: center
+.hint2 
+    margin: 0 auto
+    padding: 5px
     text-align: center
 
 .chb 
     padding: 10px
     text-align: center
-    width: 20px
-    height: 20px
-
-.logo_holder 
+    //width: 20px
+    //height: 20px
     
+.greetings
+    
+    margin: 0 auto
+    text-align: center
+    width: 100%
+    padding: 5px
+    font-size: 14px
+    
+
+.logo_container
+    float: left
+    background-image: $url_1
     margin: 10px
-    height: 12%
-    width: 12%
+    height: 60px
+    width: 60px
     background-image: $url_1
     background-repeat: no-repeat
     background-size: contain
 
+//.logo_holder 
+//    
+//    margin: 10px
+//    height: 12%
+//    width: 12%
+//    background-image: $url_1
+//    background-repeat: no-repeat
+//    background-size: contain
+
 .logo_image 
 
 .button_holder 
-    margin-top: 10%
+    padding-top: 20px
+    margin-top: 20px
     text-align: center
     width: 100%
 
 #button12 
     //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
-    border-radius: 50px
+    text-transform: uppercase
+    text-decoration: none
+    color: white
+    border-radius: 8px
     margin: 0 auto
-    font-size: 14px
-    font-weight: 800
+    font-size: 16px
+    font-weight: normal
     margin: 15px
-    width: 220px
-    height: 50px
     background-color: $color_0
+    letter-spacing: 1px
+    padding: 10px 20px
+    border: 1px solid #02868d
     //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
     transition: background-color 0.3s ease
+    box-shadow: none !important
+    //border: none !important
+    //text-shadow: none !important
+    //color: transparent !important
     &:focus 
         outline: 0 !important
-
     &:hover 
         background-color: $color_1
-
+    &:active
+        fill:#1a82b8
+        background-color:#1a82b8
 
 #header1 
+    padding-bottom: 10px
     font-weight: 600
     font-style: normal
     text-align: center
     font-family: $font_0, $font_1
 
 #header2 
+    padding-bottom: 10px
     font-weight: 600
     font-style: bold
     text-align: center
     font-family: $font_0, $font_1
 
-#all_bridges 
+//
+//.table2
+//    padding-left: -30px !important
+    
+#all_bridges, #vaildBridges 
+    padding: 10px
     margin: 0 auto
     margin-bottom: 40px
     text-align: center
-    width: 70%
+    width: 80%
+    border-radius: 5px
+    
     td 
-        padding: 3px
-        border: 3px solid
+        
+        padding: 2px
+        border: 2px solid
         border-color: $color_0
+        
 
     tr 
         margin: 0 auto
-
-
-#vaildBridges 
-    margin: 0 auto
-    text-align: center
-    width: 70%
-    td 
-        padding: 3px
-        border: 3px solid
+        border-radius: 1px
+    th
+        text-align: center
+        margin: 0 auto
+        padding: 2px
+        border: 2px solid
         border-color: $color_0
+        background-color: #efefef
+
+#search1,#search2
+    border: 1px solid $color_0 
+    margin: 5px
+    padding: 2px
+    //margin: 0 auto
+   
+.search_holder
+    text-align: center
+    margin: 0 auto
+    margin: 5px
+    padding: 2px
+    
+#vaildBridges 
+    background-color: rgba(0, 186, 195, 0.17)
+//    padding: 10px
+//    margin: 0 auto
+//    text-align: center
+//    width: 70%
+//    td 
+//        padding: 2px
+//        border: 2px solid
+//        border-color: $color_0
+//    th    
+//        text-align: center
+//        margin: 0 auto
+//        padding: 2px
+//        border: 2px solid
+//        border-color: $color_0
+//        background-color: #efefef

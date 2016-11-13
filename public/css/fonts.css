@@ -5,6 +5,8 @@
   src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
 }
 
+
+
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -24,4 +26,12 @@
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "EBGARAMOND";
+  font-style: italic;
+  font-weight: normal;
+  src:  url("../fonts/EBGaramond08-Italic/EBGaramond08-Italic.ttf") format("truetype");
 }
