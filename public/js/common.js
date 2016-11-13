@@ -105,12 +105,12 @@ $(document).ready(function () {
 
 				//sorting
 				for (var i = 0; i < obj.length; i++) {
-					console.log("inside for every obj[i].height: " + obj[i].height)
+					
 					if (obj[i].height > shipandwater)
 
 					//new array of bridges that ship can pass under
 					{
-						console.log("Inside if op " + obj[i])
+						
 						obj_g.push(obj[i]);
 					}
 
