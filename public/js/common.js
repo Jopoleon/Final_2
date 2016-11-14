@@ -141,8 +141,8 @@ $(document).ready(function () {
 				$(tbl1).hide().appendTo("#table1").fadeIn(300);
 				for (var i = 0; i < obj.length; i++) {
 					var tr = "<tr class='t1'>";
-					var td1 = "<td>" + obj[i].name + "</td>";
-					var td2 = "<td>" + obj[i].height + "</td></tr>";
+					var td1 = "<td class='text-left1'>" + obj[i].name + "</td>";
+					var td2 = "<td class='text-left1'>" + obj[i].height + "</td></tr>";
 
 					$(tr + td1 + td2).hide().appendTo("#all_bridges").fadeIn(300);
 					//$("#all_bridges").append(tr + td1 + td2).fadeIn();
@@ -157,8 +157,8 @@ $(document).ready(function () {
 				$(tbl2).hide().appendTo("#table2").fadeIn(300);
 				for (var i = 0; i < obj_g.length; i++) {
 					var tr = "<tr class='t2'>";
-					var td1 = "<td>" + obj_g[i].name + "</td>";
-					var td2 = "<td>" + obj_g[i].height + "</td></tr>";
+					var td1 = "<td class='text-left1'>" + obj_g[i].name + "</td>";
+					var td2 = "<td class='text-left1'>" + obj_g[i].height + "</td></tr>";
 
 					$(tr + td1 + td2).hide().appendTo("#vaildBridges").fadeIn(300);
 				};

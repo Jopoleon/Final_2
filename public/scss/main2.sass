@@ -9,16 +9,31 @@ $font_1: sans-serif
 //urls
 $url_0: url(../img/bridge_bg_sm.jpg)
 $url_1: url(../img/bridge_logo.png)
+$url_2: url(../img/bridge_bg.jpg)
+
+
+//.bgline
+//    z-index: -1000
+//    height: 100%
+//    width: 50
 
 body 
+    background-color: rgba(0, 206, 255, 0.1) !important
     background-repeat: no-repeat
     background-size: cover
-    font-family: $font_0, $font_1
-    min-width: 320px
+    font-family: $font_0, $font_1 !important
+    
     position: relative
     line-height: 1.42857
-    min-width: 320px
+    
     -webkit-font-smoothing: antialised
+    
+//body:after
+//    background-image: $url_2
+//    opacity: 0.1
+
+    
+    
 
 .loader
     background: none repeat scroll 0 0 #ffffff
@@ -138,33 +153,33 @@ body
 //    padding-left: -30px !important
     
 #all_bridges, #vaildBridges 
-    padding: 10px
+    //padding: 10px
     margin: 0 auto
     margin-bottom: 40px
     text-align: center
     width: 80%
-    border-radius: 5px
-    
-    td 
-        
-        padding: 2px
-        border: 2px solid
-        border-color: $color_0
-        
-
-    tr 
-        margin: 0 auto
-        border-radius: 1px
-    th
-        text-align: center
-        margin: 0 auto
-        padding: 2px
-        border: 2px solid
-        border-color: $color_0
-        background-color: #efefef
+//    border-radius: 5px
+//    
+//    td 
+//        
+//        padding: 2px
+//        border: 2px solid
+//        border-color: $color_0
+//        
+//
+//    tr 
+//        margin: 0 auto
+//        border-radius: 1px
+//    th
+//        text-align: center
+//        margin: 0 auto
+//        padding: 2px
+//        border: 2px solid
+//        border-color: $color_0
+//        background-color: #efefef
 
 #search1,#search2
-    border: 1px solid $color_0 
+    border: 1px solid #5990FF 
     margin: 5px
     padding: 2px
     //margin: 0 auto
@@ -176,7 +191,7 @@ body
     padding: 2px
     
 #vaildBridges 
-    background-color: rgba(0, 186, 195, 0.17)
+    //background-color: rgba(0, 186, 195, 0.17)
 //    padding: 10px
 //    margin: 0 auto
 //    text-align: center
