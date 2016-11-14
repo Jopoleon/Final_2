@@ -25,7 +25,8 @@ app.get('/', function(req,res) {
    res.render('index1');
     
 });
-
+console.log(__dirname); 
+console.log(require('fs').existsSync(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
