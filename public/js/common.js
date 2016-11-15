@@ -71,16 +71,25 @@ $(document).ready(function () {
 
 				//sample json array of bridges
 				var obj = [
+            
+            {
+            name: "Длинноесловонарусском123",
+						height: 257
+            },
+            {
+            name: "longwordinenglishhsdgad223",
+						height: 343
+            },
 					{
-						name: "Great_asdjkgaflkhgasljvhk",
-						height: 340
+						name: "Example in english",
+						height: 230
                         },
 					{
-						name: "Shit",
+						name: "Пример названия на руссском",
 						height: 270
                         },
 					{
-						name: "Hello",
+						name: "Кроткое",
 						height: 400
                         },
 					{
@@ -90,8 +99,8 @@ $(document).ready(function () {
 					{
 						name: "b2",
 						height: 300
-                        }
-                    ]
+                        },
+             ]
 
 				//initilizing new array for suitable bridges
 				var obj_g = [];

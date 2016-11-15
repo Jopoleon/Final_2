@@ -59,7 +59,7 @@ body {
   text-align: center;
   width: 100%;
   padding: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 82, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
@@ -134,7 +134,25 @@ body {
   font-family: Raleway, sans-serif;
 }
 
-/* line 155, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+/* line 154, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+.container-fluid {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+/* line 157, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+.table_cont {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+/* line 160, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+.col-sm-6 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+/* line 164, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
 #all_bridges, #vaildBridges {
   margin: 0 auto;
   margin-bottom: 40px;
@@ -142,14 +160,14 @@ body {
   width: 80%;
 }
 
-/* line 181, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+/* line 190, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
 #search1, #search2 {
   border: 1px solid #5990FF;
   margin: 5px;
   padding: 2px;
 }
 
-/* line 187, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
+/* line 196, C:/Users/Egor/Desktop/Coding/Bridges_SPb/First_Try/public/scss/main2.sass */
 .search_holder {
   text-align: center;
   margin: 0 auto;
